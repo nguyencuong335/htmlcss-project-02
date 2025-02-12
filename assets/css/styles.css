@@ -41,7 +41,7 @@ a {
 .heading {
     font-family: var(--font-heading);
     font-weight: 700;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.02em;
     color: #171100;
 }
 
@@ -183,7 +183,7 @@ a {
 .hero-summary .icon {
     width: 48px;
     height: 48px;
-    border-radius: 50px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,7 +243,7 @@ a {
 .hero .watch-video {
     display: flex;
     align-items: center;
-    margin-left: 128px;
+    margin-left: 28px;
     border: none;
     background: transparent;
     cursor: pointer;
@@ -475,4 +475,53 @@ a {
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* Features */
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features img.lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.features .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features .content .cta-btn {
+    margin-top: 32px;
+    min-width: 137px;
+    color: #fff;
+    background: var(--primary-color);
 }
